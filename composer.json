@@ -8,7 +8,7 @@
   ],
   "require": {
     "php": ">=7.0",
-    "silex/silex": "~2.0",
+    "icehawk/icehawk": "~2.0",
     "ramsey/uuid": "^3.5"
   },
   "autoload": {
