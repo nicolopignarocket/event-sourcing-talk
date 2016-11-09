@@ -1,0 +1,24 @@
+{
+  "name": "nicolopignarocket/event-sourcing-talk",
+  "authors": [
+    {
+      "name": "Nicolò Pignatelli",
+      "email": "pignatelli.nicolo@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "silex/silex": "~2.0",
+    "ramsey/uuid": "^3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "EventSourcing\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "EventSourcing\\Test\\": "tests/"
+    }
+  }
+}
